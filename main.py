@@ -184,7 +184,7 @@ def showDat(year, race):
         trackPlot=ax2.plot(rotated_track[:, 0], rotated_track[:, 1])
         offset_vector = [500, 0]  # offset length is chosen arbitrarily to 'look good'
 
-    # Iterate over all corners.
+        # Iterate over all corners.
         for _, corner in trackData.corners.iterrows():
             #print(corner["Angle"])
             if abs(corner["Angle"]) <40:
