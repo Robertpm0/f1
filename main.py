@@ -10,8 +10,6 @@ from matplotlib import animation
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-import random
-import time
 
 #fastf1.Cache.clear_cache()
 ergast=Ergast()
