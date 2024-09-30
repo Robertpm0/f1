@@ -4,9 +4,7 @@ from fastf1.ergast import Ergast
 import streamlit as st
 import fastf1
 import streamlit.components.v1 as components
-import plotly.express as px
 from matplotlib.animation import FuncAnimation
-from matplotlib import animation
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
